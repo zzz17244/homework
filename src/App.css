@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.low{
+  background-color: red;
+}
+
+.card {
+  padding: 2em;
+  background-color: lightgray;
+  max-width: 1280px;cls
+  border-color: aqua;
+}
+
+
+.card2 {
+  padding: 2em;
+  background-color: rgb(34, 104, 34);
+  max-width: 1280px;
+  border-color: rgb(201, 238, 201);
+  color: azure;
+  border-radius: 7px;
+  
+}
+
+.read-the-docs {
+  color: #888;
+}

@@ -1,0 +1,19 @@
+
+/* ToDoItem.css */
+.todo-item {
+    /* Your default styles here */
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(241, 239, 239);
+    color: rgb(12, 7, 1);
+    background-color: lightgray;
+    border-radius: 10px
+  }
+  
+  .highlightred {
+    background-color: red;
+    color: white; /* Set font color to white for items with background color red */
+    border-radius: 10px
+  }
+  
+  
