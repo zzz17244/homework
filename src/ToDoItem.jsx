@@ -1,12 +1,10 @@
-// ToDoItem.js
-// ToDoItem.js
 import React from 'react';
 import './ToDoItem.css'; // Import CSS file for styling
 
-export default function ToDoItem(props) {
+export default function ToDoItems(props) {
   return (
-    <div className={`todo-item ${props.number === 1 || props.number === 3 ? 'highlightred' : ''}`}>
-      Item number {props.number}
+    <div className={`todo-item ${props.numbers.priority === 0 ? 'highlightred' : 'todo-itemss'}`}>
+      No#: {props.index + 1} : "{props.numbers.todo}" :  Priority= {props.numbers.priority}
     </div>
   );
 }

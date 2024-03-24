@@ -1,18 +1,26 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
-import ToDoItem from './ToDoItem';
+import ToDoItems from './ToDoItem';
 
 function App() {
-  const items = [1, 2, 3, 4, 5, 6];
+  const items = [
+    { todo: "one", priority: 0 },
+    { todo: "two", priority: 2 },
+    { todo: "three", priority: 0 },
+    { todo: "four", priority: 4 },
+    { todo: "five", priority: 6 },
+    { todo: "six", priority: 8 },
+    { todo: "seven", priority: 5 },
+    { todo: "eight", priority: 8 },
+    { todo: "nine", priority: 9 },
+    { todo: "ten", priority: 1 },
+  ];
 
   return (
     <>
       <h2>To do items</h2>
       <div>
-        {items.map((item) => (
-          <ToDoItem number={item} key={item} />
+        {items.map((item, index) => (
+          <ToDoItems numbers={item} index={index} />
         ))}
       </div>
     </>
@@ -20,7 +28,6 @@ function App() {
 }
 
 export default App;
-
 
 
 
