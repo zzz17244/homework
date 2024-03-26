@@ -1,0 +1,88 @@
+/* Reset margin and padding for the entire document */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Using a more universal font for a professional look */
+  background-color: #ddd;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  background-color: #333333; /* Darker shade for a professional look */
+  color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Slight shadow for depth */
+}
+
+/* Style the site title or logo */
+.topnav h2 {
+  margin: 0;
+  color: #fff;
+}
+
+/* Navigation links style */
+.topnav a {
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none; /* Removes underline from links */
+  font-size: 16px; /* Slightly larger font for readability */
+}
+
+/* Change link color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style adjustments for the main content area */
+#main-content {
+  padding: 20px;
+  margin-top: 50px; /* Ensure there's enough space below the navbar */
+}
+.About{
+  background-color: Black;
+  color: White;
+  width: 30vw; /* Set width to 30% of the viewport width */
+  padding: 20px; /* Add more space inside */
+  text-align: left; /* Align text to the left */
+  font-size: 15px; /* Set a smaller font size */
+  line-height: 1.6; /* Add more space between lines */
+  border-radius: 5px; /* Round the corners */
+}
+
+.Blue{
+  background-color: rgb(40, 11, 170);
+  color: White;
+  width: 30vw; /* Set width to 30% of the viewport width */
+  height: auto; /* Adjust height to be automatic */
+  padding: 20px;
+  border-radius: 5px; /* Round the corners */
+  text-align: left; /* Align text to the left */
+  display: flex; /* Use Flexbox */
+  align-items: center; /* Vertically center the text */
+  justify-content: flex-start; /* Align text to the start horizontally */
+}
+.About2{
+  background-color:black;
+  color: White;
+  width: 30vw; /* Set width to 30% of the viewport width */
+  height: 10px;
+  padding: 20px;
+  border-radius: 5px; /* Round the corners */
+  text-align: left; /* Align text to the left */
+  font-size: large;
+
+}
+/* If you're adding borders or more sophisticated styling, consider the following:
+
+- Use colors that match your brand or website theme, sticking to a palette that reflects a professional tone.
+- Borders, rounded corners, and shadows can enhance elements subtly without overwhelming the content.
+- Consistency in padding, margins, and font sizes across your site will contribute significantly to a professional appearance.
+*/
+
+
+  
